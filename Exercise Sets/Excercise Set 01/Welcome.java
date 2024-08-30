@@ -11,6 +11,6 @@ class welcome{
         String name = scanner.nextLine();
 
         System.out.println("This course will be fun, "+ name +"!");
-       
+        scanner.close();
     }
 }
