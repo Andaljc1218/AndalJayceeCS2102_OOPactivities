@@ -1,4 +1,4 @@
-class escseq {
+class Escseq {
     public static void main(String[] args) {
         
         int multiple = 7;
