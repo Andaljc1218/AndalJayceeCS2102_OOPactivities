@@ -9,18 +9,19 @@ class GettingGreater
         System.out.println("Getting the Greater Value");
 
         System.out.print("Enter first character: ");
-        char firstChar = scanner.next().charAt(0);
+        char first_char = scanner.next().charAt(0);
 
         System.out.print("Enter second character: ");
-        char secondChar = scanner.next().charAt(0);
+        char second_char = scanner.next().charAt(0);
 
-        char greaterChar = (char) Math.max(firstChar, secondChar);
+        char greater_char = (char) Math.max(first_char, second_char);
 
-        System.out.println("--------------------------------------------------------");
-        System.out.println("The character with greater value is: " + greaterChar);
-        System.out.println("--------------------------------------------------------");
-        System.out.println("\nShowing the ASCII Codes");
-        System.out.println(firstChar + ": " + (int) firstChar);
-        System.out.println(secondChar + ": " + (int) secondChar);
+        System.out.println("--------------------------------------------------");
+        System.out.println("The character with greater value is: " + greater_char);
+        System.out.println("--------------------------------------------------");
+    
+        System.out.println("Showing the ASCII Codes");
+        System.out.println(first_char + ": " + (int) first_char);
+        System.out.println(second_char + ": " + (int) second_char);
     }
 }
