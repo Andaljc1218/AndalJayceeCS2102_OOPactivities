@@ -4,20 +4,19 @@ class MultiplicationTable {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the size of the multiplication table: ");
-        int maxNumber = scanner.nextInt();
+        int num = scanner.nextInt();
 
-        int[][] multiplicationTable = new int[maxNumber][maxNumber];
+        int[][] mul_table = new int[num][num];
 
-        for (int i = 0; i < maxNumber; i++) {
-            for (int j = 0; j < maxNumber; j++) {
-                multiplicationTable[i][j] = (i + 1) * (j + 1);
+        for (int i = 0; i <num; i++) {
+            for (int j = 0; j < num; j++) {
+                mul_table[i][j] = (i + 1) * (j + 1);
             }
         }
-
         System.out.println("Multiplication Table: ");
-        for (int i = 0; i < maxNumber; i++) {
-            for (int j = 0; j < maxNumber; j++) {
-                System.out.printf("%4d", multiplicationTable[i][j]);
+        for (int i = 0; i < num; i++) {
+            for (int j = 0; j < num; j++) {
+                System.out.printf("%4d", mul_table[i][j]);
             }
             System.out.println();
         }
