@@ -50,6 +50,6 @@ public class Car {
                 sizeDesc = "";
                 break;
         }
-        return String.format("Car (%s) - P(%.2f) - (%s)", color, price, sizeDescriptor);
+        return String.format("Car (%s) - P(%.2f) - (%s)", color, price, sizeDesc);
     }
 }
