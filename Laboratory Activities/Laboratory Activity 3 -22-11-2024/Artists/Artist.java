@@ -2,23 +2,17 @@ package Artists;
 
 public class Artist {
     private String name;
-    private String nationality;
     private int age;
     private String specialty;
 
-    public Artist(String name, String nationality, int age, String specialty) {
+    public Artist(String name, int age, String specialty) {
         this.name = name;
-        this.nationality = nationality;
         this.age = age;
         this.specialty = specialty;
     }
 
     public String getName() {
         return name;
-    }
-
-    public String getNationality() {
-        return nationality;
     }
 
     public int getAge() {
@@ -31,10 +25,6 @@ public class Artist {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setNationality(String nationality) {
-        this.nationality = nationality;
     }
 
     public void setAge(int age) {

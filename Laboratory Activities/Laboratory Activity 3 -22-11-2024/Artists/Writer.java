@@ -10,8 +10,8 @@ public class Writer extends Artist {
 
     private WritingStyle writingStyle;
 
-    public Writer(String name, String nationality, int age, String specialty, WritingStyle writingStyle) {
-        super(name, nationality, age, specialty);
+    public Writer(String name, int age, String specialty, WritingStyle writingStyle) {
+        super(name, age, specialty);
         this.writingStyle = writingStyle;
     }
 
