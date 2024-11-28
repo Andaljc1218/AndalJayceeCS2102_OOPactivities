@@ -12,7 +12,7 @@ public class ShapeCollection {
             shape.printShapeType();
             System.out.printf("Area: %.2f\n", shape.getArea());
             System.out.printf("Perimeter: %.2f\n", shape.getPerimeter());
-            System.out.println(); // Blank line for readability
+            System.out.println();
         }
     }
 }
